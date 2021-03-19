@@ -1,0 +1,104 @@
+.ChallengeBoxContainer {
+    height: 100%;
+    background: var(--white);
+    box-shadow: 0 0 68px rgb(206, 200, 200);
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* /////////////------(ChallengeBoxNotActive)---------//////////////// */
+
+.ChallengeBoxNotActive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ChallengeBoxNotActive>b {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.ChallengeBoxNotActive>p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.4;
+    max-width: 70%;
+}
+
+.ChallengeBoxNotActive>p>img {
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem;
+}
+
+/* ////////----------(Footer-Active)-------------/////////////// */
+
+
+
+.ChallengeBoxActive footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* /////////////---------(Botão do Footer Active)---------//////////// */
+.ChallengeBoxActive footer button {
+    width: 10rem;
+    height: 4rem;
+    margin: 0.5rem;
+    align-content: center;
+    border-radius:0.5rem;
+    transition: ease 0.3s;
+    
+}
+
+.ChallengeBoxActive footer button img {
+    width: 2rem;
+    margin-left: 0.8rem;
+    
+}
+
+.ButtonFail{
+    color: var(--white);
+    background: var(--red);
+}
+.ButtonFail:hover{
+    color: var(--white);
+    background: var(--white-red);
+}
+
+.ButtonSucceed {
+    color: var(--white);
+    background: var(--green);
+}
+
+.ButtonSucceed:hover{
+    color: var(--white);
+    background: var(--white-green);
+}
+/* ///////////-------(Main-Active )-------///////////// */
+.ChallengeBoxActive>main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ChallengeBoxActive>header{
+    margin-bottom: 2rem;
+}
+
+.ChallengeBoxActive>main>img {
+    width: 15rem;
+    height: 15rem;
+    
+}
+.ChallengeBoxActive>main>p{
+    margin: 0.2rem;
+    padding: 0.2rem;
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+/*variaveis das cores que vou ultilizar no projeto*/
+
+    {
+    --white: #FFF;
+    --background: #f2f3f5;
+    --gray-line: #DCDDE0;
+    --text: #666666;
+    --text-highlight: #B3B9FF;
+    --tittle: #2E384D;
+    --red: #E83F5B;
+    --green: #4CD62B;
+    --blue: #5965E0;
+    --blue-dark: #4953b8;
+    --blue-twitter: #2AA9E0;
+    --white-green: #a9ec96;
+    --blue-pool:#138882c2;
+    --white-red: #eea5b1;
+}
+
+@media(max-width:1080px) {
+    html {
+        font-size: 93.75%;
+    }
+    /*será 93,75% porque a medida inicial de rem =16px
+    ///e 16*0,9375 = 15 então estaremos diminuindo 1 pixel em tudo que usa 
+    rem  resumindo tudo que usa rem vai aumentar ou diminuir junto*/
+}
+
+@media(max-width:720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+}
+
+body, button, input, textarea {
+    font: 400 1rem "inter", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /*herda a mesma cor do conteiner*/
+}
